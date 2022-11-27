@@ -16,6 +16,16 @@ header {
     background: linear-gradient(180deg, rgba(18,13,5,1) 0%, rgba(4,2,27,0) 50%, rgba(18,13,5,1) 100%);
 }
 
+.header_text{
+    color:#E2A126!important;
+    font-weight:normal;
+    text-align: center;
+    text-shadow: 2px 0 2px #000, 
+    0 2px 2px #000, 
+    -2px 0 2px #000, 
+    0 -2px 2px #000;
+}
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -38,7 +48,7 @@ header {
     padding: 200px 0;
     height: max-content;
     background: rgb(106,92,61);
-background: linear-gradient(0deg, rgba(106,92,61,1) 11%, rgba(75,53,22,1) 47%, rgba(56,40,17,1) 77%, rgba(18,13,5,1) 100%);
+    background: linear-gradient(0deg, rgba(106,92,61,1) 11%, rgba(75,53,22,1) 47%, rgba(56,40,17,1) 77%, rgba(18,13,5,1) 100%);
 }
 .grades i{
     font-size: 25px;
@@ -55,10 +65,10 @@ background: linear-gradient(0deg, rgba(106,92,61,1) 11%, rgba(75,53,22,1) 47%, r
     align-items: center;
 }
 .Line{
-    width: 100px;
+    width: 70000px;
     height: 3px;
     background-color: white;
-    margin: 15px auto 30px;
+    margin: -15px auto 30px;
 }
 
 .text{
@@ -66,3 +76,6 @@ background: linear-gradient(0deg, rgba(106,92,61,1) 11%, rgba(75,53,22,1) 47%, r
     color: white;
 }
 
+.html_image{
+    border-radius: 35px;
+}

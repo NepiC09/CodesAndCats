@@ -4,147 +4,122 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--подключаем bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <!--подключаем шрифты. Вроде бы. Кажется я так и не использовал их, но не стал убиратьь...-->
     <link rel="stylesheet" href="css/fontello.css">
-     <!--ну и стили кастомные-->
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" type="module">
+    </script>
     <title>Codes&Cats</title>
 </head>
 <body>
-    <!--Хидер-->
     <header>
-        <!--Контейнер хидера-->
         <div class="container">
-            <!--Класс row - Строка. Из Bootstrap. Что именнно она делает - не очень понятно-->
             <div class="row">
-                <!--
-                    Это класс (col) - столбец, 
-                    12 обозначает, что этот столбец будет занимать 12 отсеков (то есть всю возможную ширину)
-                    если бы мы написали col-4, то занимало бы только 4/12 всей доступной ширины
-                -->
                 <div class="col-12">
-                    <h1 class="text-center text-white mb-4" stile ="color:#990000">Codes&Cats</h1>
-                    <h3 class="text-center text-white mb-5">Кот пишет код, а мы пьём кофе</h5>
-                    <!--
-                    <h3 class="text-center text-white mb-5">Кофе - это сваренный напиток, приготовленный из обжаренных кофейных зерен, семян ягод некоторых цветущих растений рода Coffea.</h3>
-                    -->
+                    <h1 class="header_text display-1">Codes&Cats</h1>
+                    <h3 class="header_text display-3">Кот пишет код, а мы пьём кофе</h5>
                 </div>
             </div>
         </div>
     </header>
-    <!--После хидера идёт разделение на секции. в style.css я добавил секциям только небольшой отступ сверху-->
     <section class="grades">
-        <!--снова контейнер-->
         <div class="container">
-            <!--Строка-->
             <div class="row">
-                <!--строка будет занимать максимальную ширину, т.к. col-12 -->
                 <div class="col-12">
-                    <h2 class="text-center text-uppercase text-white mb-5">Ингридиенты кофе</h2>
+                    <h2 class="text-center text-uppercase text-white mb-5">Ингредиенты кофе</h2>
+                </div>
+                <div class="Line"></div>
+            </div>
+
+            <div class="row align-bottom text-left">
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Эспрессо" value="Эспрессо">
+                    <label class="text-white">Эспрессо(1)</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Эспрессо(2)" value="Эспрессо(2)">
+                    <label class="text-white">Эспрессо(2)</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Растворимый кофе" value="Растворимый кофе">
+                    <label class="text-white">Растворимый кофе</label> 
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Чёрный кофе" value="Чёрный кофе">
+                    <label class="text-white">Чёрный кофе</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Молоко" value="Молоко">
+                    <label class="text-white">Молоко</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Сахар" value="Сахар">
+                    <label class="text-white">Сахар</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Сливки" value="Сливки">
+                    <label class="text-white">Сливки</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Виски" value="Виски">
+                    <label class="text-white">Виски</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Мёд" value="Мёд">
+                    <label class="text-white">Мёд</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Мороженое" value="Мороженое">
+                    <label class="text-white">Мороженое</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Лёд" value="Лёд">
+                    <label class="text-white">Лёд</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Горячая вода" value="Горячая вода">
+                    <label class="text-white">Горячая вода</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Холодная вода" value="Холодная вода">
+                    <label class="text-white">Холодная вода</label>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <input type="checkbox" id="Шоколад" value="Шоколад">
+                    <label class="text-white">Шоколад</h6>
                 </div>
             </div>
-            <!--строка-->
-            <div class="row">
-                <!--
-                    строка будет занимать разное количество отсеков, в зависимости от ширины
-                    на сайте написаны параметры
-                    col-xl-4 - при размере ширины xl (>=1200px), будет занимать 4 отсеков
-                    col-md-6 - при размере ширины md (>=768px), будет заниматься 6 отсеков
-                    col-sm-12 - при размере ширины sm (>=576px), будет занимать 12 отсеков
-
-                    всего таких разделов я сделал 6, у всех одинаковые параметры, поэтому получается так, что при размере xl у меня будет 3 столбца, при размере md - 2, при размере sm - 1
-                    Но на самом деле, я мог не указывать это, и всё в целом было бы красиво, так как bootstrap сам хорошо адаптируется
-                -->
-                <!--все 14 разделов снизу одинаковые, кроме текста-->
-<div class="col-xl-2 col-md-6 col-sm-12">
-    <!--здесь я создаю кружочек и ввожу текст Кружочек описан в style.css-->
-    <div class="aki_circle"><h7 class="text-centered text-white">9/10</h7></div>
-    <!--тут класека-->
-    <h6 class="text-center text-white">Эспрессо(1)</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">10/10</h6></div>
-    <h6 class="text-center text-white">Эспрессо(2)</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">8/10</h6></div>
-    <h6 class="text-center text-white">Растворимый кофе</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <!--здесь я создаю кружочек и ввожу текст Кружочек описан в style.css-->
-    <div class="aki_circle"><h7 class="text-centered text-white">9/10</h7></div>
-    <!--тут класека-->
-    <h6 class="text-center text-white">Чёрный кофе</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">10/10</h6></div>
-    <h6 class="text-center text-white">Молоко</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">8/10</h6></div>
-    <h6 class="text-center text-white">Сахар</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <!--здесь я создаю кружочек и ввожу текст Кружочек описан в style.css-->
-    <div class="aki_circle"><h7 class="text-centered text-white">9/10</h7></div>
-    <!--тут класека-->
-    <h6 class="text-center text-white">Сливки</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">10/10</h6></div>
-    <h6 class="text-center text-white">Виски</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">8/10</h6></div>
-    <h6 class="text-center text-white">Мёд</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <!--здесь я создаю кружочек и ввожу текст Кружочек описан в style.css-->
-    <div class="aki_circle"><h7 class="text-centered text-white">9/10</h7></div>
-    <!--тут класека-->
-    <h6 class="text-center text-white">Мороженое</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">10/10</h6></div>
-    <h6 class="text-center text-white">Лёд</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">8/10</h6></div>
-    <h6 class="text-center text-white">Горячая вода</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <!--здесь я создаю кружочек и ввожу текст Кружочек описан в style.css-->
-    <div class="aki_circle"><h7 class="text-centered text-white">9/10</h7></div>
-    <!--тут класека-->
-    <h6 class="text-center text-white">Холодная вода</h6>
-    <div class="Line"></div>
-    </div>
-    <div class="col-xl-2 col-md-6 col-sm-12">
-    <div class="aki_circle"><h6 class="text-centered text-white">10/10</h6></div>
-    <h6 class="text-center text-white">Шоколад</h6>
-    <div class="Line"></div>
-    </div>
-                
+        </div>
+        <div class="container">
+            <div class="row w-50 h-50">
+                <div class = "col-6">
+                    <img class="img-thumbnail" id = "image" src ="" alt="photo">
+                </div>
+                <div class="col-6">
+                    <h3 class="text-white">Описание</h6>
+                </div>
             </div>
         </div>
     </section>
-   
-   
-    <!--хз зачем это. не использовал. Можете попробовать удалить :)-->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+        import {main_html} from "./script.js";
+        checkboxes.onchange = function(event){
+            document.getElementById('image').src = main_html.putCheckBoxesResults();
+        }
+    </script>
+    <!--<script src="js/bootstrap.bundle.min.js"></script>-->
 </body>
 </html>
