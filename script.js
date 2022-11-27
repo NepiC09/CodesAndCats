@@ -13,6 +13,7 @@ class Coffee {
     for (var index = 0; index < checkboxes.length; index++) {
       if (checkboxes[index].checked) {
         checkboxesChecked.push(checkboxes[index].value);
+        console.log("help me");
       }
     }
     return checkboxesChecked;
@@ -35,8 +36,8 @@ class Coffee {
         }
       }
     }
-    document.getElementById("description").innerHTML = "Drink some shit";
-      return "https://memepedia.ru/wp-content/uploads/2018/09/papey-gavna-original.jpg";
+    document.getElementById("description").innerHTML = "Такого кофе нет";
+      return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BT_wxUp2Rt1dHhRxtdoeHxiBsTjjDxmW4A&usqp=CAU";
   }
 }
 
