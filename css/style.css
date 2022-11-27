@@ -47,22 +47,12 @@ header {
 .grades{
     padding: 200px 0;
     height: max-content;
-    background: rgb(106,92,61);
-    background: linear-gradient(0deg, rgba(106,92,61,1) 11%, rgba(75,53,22,1) 47%, rgba(56,40,17,1) 77%, rgba(18,13,5,1) 100%);
+    background: rgb(18,13,5);
+    background: linear-gradient(180deg, rgba(18,13,5,1) 0%, rgba(18,24,61,1) 49%, rgba(43,52,110,1) 100%);
 }
 .grades i{
     font-size: 25px;
     color: white;
-}
-.aki_circle{
-    margin: 0 auto 15px;
-    width: 70px;
-    height: 70px;
-    border: 3px solid white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .Line{
     width: 70000px;

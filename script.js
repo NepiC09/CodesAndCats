@@ -23,7 +23,7 @@ class Coffee {
       let result_length = results.length;
    
     if (result_length == 0) {
-      document.getElementById("description").innerHTML = "No money for coffee";
+      document.getElementById("description").innerHTML = "Лапки сделали сайт. Не верьте лапкам";
       return "https://i.postimg.cc/Kzyfd0rC/VLAJ72-RUPQRW5-IIi-YD72-O79-YYft-IJlb2htxgb-AFUON6herq7d05h-Zhqb9-Wnhm-Rd-Vs-GOwh4j-PRTZMh3-BVnv1lyoux.jpg";
     }
 
@@ -43,4 +43,4 @@ class Coffee {
 export let main_html = new Coffee();
 main_html.setClassCoffeeList(coffee_list);
 document.getElementById('image').src = "https://i.postimg.cc/Kzyfd0rC/VLAJ72-RUPQRW5-IIi-YD72-O79-YYft-IJlb2htxgb-AFUON6herq7d05h-Zhqb9-Wnhm-Rd-Vs-GOwh4j-PRTZMh3-BVnv1lyoux.jpg";
-document.getElementById("description").innerHTML = "No money for coffee";
+document.getElementById("description").innerHTML = "Лапки сделали сайт. Не верьте лапкам";
