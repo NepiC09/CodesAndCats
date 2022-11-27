@@ -69,3 +69,8 @@ header {
 .html_image{
     border-radius: 35px;
 }
+
+.img-thumbnail{
+    width: auto;
+    max-height: 400px;
+}
