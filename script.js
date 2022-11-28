@@ -25,7 +25,7 @@ class Coffee {
    
     if (result_length == 0) {
       document.getElementById("description").innerHTML = "Выберите ингредиенты для кофе";
-      return "https://i.postimg.cc/Kzyfd0rC/VLAJ72-RUPQRW5-IIi-YD72-O79-YYft-IJlb2htxgb-AFUON6herq7d05h-Zhqb9-Wnhm-Rd-Vs-GOwh4j-PRTZMh3-BVnv1lyoux.jpg";
+      return "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/50f12772294197.5be29482106f2.jpg";
     }
 
     for (let i = 0; i < this.my_coffee_list.length; i++){
@@ -43,5 +43,5 @@ class Coffee {
 
 export let main_html = new Coffee();
 main_html.setClassCoffeeList(coffee_list);
-document.getElementById('image').src = "https://img.freepik.com/free-vector/restaurante-menu-template-with-coffee-shop_23-2147766884.jpg";
+document.getElementById('image').src = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/50f12772294197.5be29482106f2.jpg";
 document.getElementById("description").innerHTML = "Выберите ингредиенты для кофе!";
