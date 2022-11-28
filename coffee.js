@@ -3,7 +3,7 @@ export let coffee_list = [
       "title": "Espresso",
       "description": "Эспрессо - кофе, пригтоволенный путём прохождения горячей воды под давлением через фильтр с молотым кофе.",
       "ingredients": [
-        "Эспрессо"
+        "Эспрессо(1)"
       ],
         "image": "https://shima-newriga.ru/wp-content/uploads/2020/04/Espresso-_-Dvojnoj-espresso.jpg",
       "id": 1
@@ -41,7 +41,7 @@ export let coffee_list = [
       "title": "Американо",
       "description": "Американо - кофейный напиток, для приготовления которого требуется сначала сварить порцию эспрессо, а потом добавить 90 мл горячей воды. Можно также добавить сахар по вкусу.",
       "ingredients": [
-        "Эспрессо",
+        "Эспрессо(1)",
         "Сахар"
       ],
       "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-18.jpg",
