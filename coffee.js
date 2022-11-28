@@ -46,6 +46,16 @@ export let coffee_list = [
       ],
       "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-18.jpg",
       "id": 5
+    },
+    {
+      "title": "Латте",
+      "description": "Латте (англизированный и сокращённый вариант от итал. caffè latte [kaffeˈlatte] — «кофе с молоком») — кофейный напиток, на основе молока, представляющий собой трёхслойную смесь из пены, молока (итал. latte) и кофе эспрессо. Был изобретён в Италии.",
+      "ingredients": [
+        "Чёрный кофе",
+        "Молоко"
+      ],
+      "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-14.jpg",
+      "id": 6
     }
 
   ]
