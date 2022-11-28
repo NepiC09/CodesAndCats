@@ -26,15 +26,5 @@ export let coffee_list = [
       ],
       "image": "https://www.meme-arsenal.com/memes/7d0aad95d41b21936d96e7fae169d06f.jpg",
       "id": 3
-    },
-    {
-      "title": "На пробу",
-      "description": "лишь бы получилось",
-      "ingredients": [
-        "Молоко",
-        "Холодная вода"
-      ],
-      "image": "https://topkin.ru/wp-content/uploads/2017/11/7.jpg",
-      "id": 4
     }
   ]
