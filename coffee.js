@@ -1,20 +1,20 @@
 export let coffee_list = [
     {
       "title": "Espresso",
-      "description": "Экспрессо",
+      "description": "Эспрессо - кофе, пригтоволенный путём прохождения горячей воды под давлением через фильтр с молотым кофе.",
       "ingredients": [
-        "Эспрессо"
+        "Эспрессо(1)"
       ],
-        "image": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_topcrop_630",
+        "image": "https://shima-newriga.ru/wp-content/uploads/2020/04/Espresso-_-Dvojnoj-espresso.jpg",
       "id": 1
     },
     {
-      "title": "Экспрессо",
-      "description": "Эспре́ссо — метод приготовления кофе путём прохождения горячей воды (92-96 °C) под давлением (около 9 бар) через фильтр с молотым кофе.",
+      "title": "Доппио",
+      "description": "Доппио (итал. Doppio), Двойной эспрессо — кофейный напиток, готовящийся как двойная порция эспрессо с помощью кофейного фильтра или эспрессо-машины.",
       "ingredients": [
         "Эспрессо(2)"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doppio.jpg/2560px-Doppio.jpg",
+      "image": "https://static.tildacdn.com/tild6466-3663-4136-b434-376462646636/62-min.jpg",
       "id": 2
     },
     {
@@ -102,15 +102,6 @@ export let coffee_list = [
       "id": 10
     },
     {
-      "title": "Доппио",
-      "description": "Доппио (итал. Doppio), Двойной эспрессо — кофейный напиток, готовящийся как двойная порция эспрессо с помощью кофейного фильтра или эспрессо-машины.",
-      "ingredients": [
-        "Эспрессо(2)"
-      ],
-      "image": "https://static.tildacdn.com/tild6466-3663-4136-b434-376462646636/62-min.jpg",
-      "id": 11
-    },
-    {
       "title": "Ирландский кофе",
       "description": "«Кофе по-ирла́ндски» — кофейный напиток, который относят в категорию коктейлей со сливками, на основе ирландского виски, чёрного кофе, взбитых сливок и коричневого сахара.",
       "ingredients": [
@@ -120,7 +111,7 @@ export let coffee_list = [
         "Виски"
       ],
       "image": "https://s3.amazonaws.com/mscwordpresscontent/wa/wp-content/uploads/2018/02/Irish-coffee_1600.jpg",
-      "id": 12
+      "id": 11
     },
      {
       "title": "Макиато",
@@ -130,6 +121,41 @@ export let coffee_list = [
         "Молоко"
       ],
       "image": "https://best-stress-relief.test1.co.il/wp-content/uploads/2020/04/coffee.jpg",
+      "id": 12
+    },
+    {
+      "title": "Капучино",
+      "description": "Капучи́но — кофейный напиток итальянской кухни на основе эспрессо с добавлением в него подогретого вспененного молока.",
+      "ingredients": [
+        "Эспрессо(1)",
+        "Молоко",
+        "Сахар"
+      ],
+      "image": "https://dishingpc.com/wp-content/uploads/2019/11/3-1024x768.jpg",
       "id": 13
+    },
+    {
+      "title": "Кофе по-венски",
+      "description": "Кофе по-венски быстро понравился людям, и уже через 25 лет количество заведений, предлагавших напиток, увеличилось до 150. Кофе по-венски очень нравится местным жителям. Калорийность кофе по-венски. В чашке классического напитка содержится 90 ккал. В несладком варианте – всего 60–70 ккал.",
+      "ingredients": [
+        "Чёрный кофе",
+        "Сливки"
+      ],
+      "image": "https://coffee-biz.ru/wp-content/uploads/2020/12/8.jpg",
+      "id": 14
+    },
+    {
+      "title": "Айс-кофе",
+      "description": "Холодный кофе или айс-кофе, ледяной кофе — способ подачи кофейных напитков. Часто употребляется в качестве прохладительного напитка, особенно летом.",
+      "ingredients": [
+        "Чёрный кофе",
+        "Молоко",
+        "Лёд",
+        "Горячая вода",
+      ],
+      "image": "https://avatars.dzeninfra.ru/get-ynews/6004401/16c1449ba15bdf43e9ef2f3ef83029de/992x496",
+      "id": 15
     }
+    
+    
 ]
