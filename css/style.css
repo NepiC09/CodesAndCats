@@ -47,8 +47,8 @@ header {
 .grades{
     padding: 200px 0;
     height: max-content;
-    background: rgb(18,13,5);
-    background: linear-gradient(180deg, rgba(18,13,5,1) 0%, rgba(18,24,61,1) 49%, rgba(43,52,110,1) 100%);
+   background: rgb(106,92,61);
+background: linear-gradient(0deg, rgba(106,92,61,1) 11%, rgba(75,53,22,1) 47%, rgba(56,40,17,1) 77%, rgba(18,13,5,1) 100%);
 }
 .grades i{
     font-size: 25px;
