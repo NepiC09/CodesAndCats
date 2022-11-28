@@ -209,6 +209,15 @@ export let coffee_list = [
       ],
       "image": "https://cupofcoffee.biz/storage/2018/09/Flat-white.jpg",
       "id": 20
-    }
+    },
+    {
+       "title": "Айс-айс",
+       "description": "Чистый лёд? Это не кофе.",
+        "ingredients": [
+        "Лёд"
+        ],
+        "image": "https://sun1-87.userapi.com/impg/DWhfy9Gq9eU6CGRZpj5hmkcSHqxF05ZfNHE0-g/MYoSeTnfQ2k.jpg?size=558x510&quality=96&sign=6e6b0405c50d12db4d8ca0376c4aea4d&type=album",
+        "id": 21
+}
     
 ]
