@@ -231,11 +231,11 @@ export let coffee_list = [
     
      {
       "title": "Паук с водой",
-      "description": "На основе воды готовиться кофе. Вы почти близки. Выберите остальные ингрилиенты :)",
+      "description": "На основе воды готовиться кофе. Вы почти близки. Выберите остальные ингридиенты :)",
       "ingredients": [
         "Холодная вода"
       ],
-      "image": "https://cupofcoffee.biz/storage/2018/09/Flat-white.jpg",
+      "image": "https://sun1-16.userapi.com/impg/ciuEvV_ay7lfiT_o2s0F3_AUV8ruTfOPtjH5AA/VpcCiCOHoxg.jpg?size=600x535&quality=96&sign=afc0d9eb4b91a2a1b09fc07a3ab196b1&type=album",
       "id": 23
     },
      {
