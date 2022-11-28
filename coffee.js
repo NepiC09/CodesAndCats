@@ -237,6 +237,16 @@ export let coffee_list = [
         "Молоко"
       ],
       "image": "https://cupofcoffee.biz/storage/2018/09/Flat-white.jpg",
-      "id": 20
+      "id": 23
+    },
+     {
+      "title": "Собака",
+      "description": "Предпочитаю быть пьяным, чем обманутым (с.Лазарев). Мы, к сожалению, не продаем алкоголь, но очень ва понимаем. Выберите остальные ингридиенты, пожалуйста",
+      "ingredients": [
+        "Эспрессо(2)",
+        "Молоко"
+      ],
+      "image": "https://sun1-27.userapi.com/impg/GzWoFxOfPN0JmKqHHvh-8uv3Yxnnt2ItZR3bUQ/K8SnWlUM-9U.jpg?size=512x512&quality=95&sign=0cf82a5d2965aefd5e93211950921c74&type=album",
+      "id": 24
     }
 ]
