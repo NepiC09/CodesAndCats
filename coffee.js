@@ -76,7 +76,60 @@ export let coffee_list = [
             "Молоко",
             "Сахар"
         ],
-        "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-19.jpg",
+        "image": "https://fikiwiki.com/uploads/posts/2022-02/1644961563_24-fikiwiki-com-p-kartinki-sgushchenka-25.jpg",
         "id": 8
     },
+    {
+      "title": "Мокко",
+      "description": "Мокко — это напиток на основе эспрессо с добавлением молока, какао-порошка или шоколадного сиропа. Бариста украшают его взбитыми сливками, шоколадной стружкой, какао, корицей и иногда маршмеллоу.",
+      "ingredients": [
+        "Эспрессо(1)",
+        "Молоко",
+        "Сливки",
+        "Шоколад"
+      ],
+      "image": "https://about-tea.ru/wp-content/uploads/b/c/2/bc260a76f92a81a34cc1b84126fb83b5.jpeg",
+      "id": 9
+    },
+    {
+      "title": "Глясе",
+      "description": "Глясе́ — холодный напиток на основе кофе с добавлением мороженого. В качестве посуды обычно используется стеклянный стакан или фужер.",
+      "ingredients": [
+        "Чёрный кофе",
+        "Мороженое"
+      ],
+      "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-20.jpg",
+      "id": 10
+    },
+    {
+      "title": "Доппио",
+      "description": "Доппио (итал. Doppio), Двойной эспрессо — кофейный напиток, готовящийся как двойная порция эспрессо с помощью кофейного фильтра или эспрессо-машины.",
+      "ingredients": [
+        "Эспрессо(2)"
+      ],
+      "image": "https://static.tildacdn.com/tild6466-3663-4136-b434-376462646636/62-min.jpg",
+      "id": 11
+    },
+    {
+      "title": "Ирландский кофе",
+      "description": "«Кофе по-ирла́ндски» — кофейный напиток, который относят в категорию коктейлей со сливками, на основе ирландского виски, чёрного кофе, взбитых сливок и коричневого сахара.",
+      "ingredients": [
+        "Чёрный кофе",
+        "Сахар",
+        "Сливки",
+        "Виски"
+      ],
+      "image": "https://s3.amazonaws.com/mscwordpresscontent/wa/wp-content/uploads/2018/02/Irish-coffee_1600.jpg",
+      "id": 12
+    },
+     {
+      "title": "Макиато",
+      "description": "Макиато — кофейный напиток, изготавливаемый путем добавления к эспрессо минимального количества («пятнышка») молока, обычно взбитого.",
+      "ingredients": [
+        "Эспрессо(1)",
+        "Молоко"
+      ],
+      "image": "https://best-stress-relief.test1.co.il/wp-content/uploads/2020/04/coffee.jpg",
+      "id": 13
+    }
 ]
