@@ -56,6 +56,27 @@ export let coffee_list = [
       ],
       "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-14.jpg",
       "id": 6
-    }
-
-  ]
+    },
+    {
+      "title": "Фраппе",
+      "description": "Кофе фраппе́ (фр. frappé — охлаждённый) — покрытый молочной пеной холодный кофейный напиток греческого происхождения. Напиток наиболее известен под французским названием frappé (с фр. — «охлаждённый в колотом льду», от фр. frapper — бить, колоть) и связан с разновидностью итальянского напитка под названием гранита.",
+      "ingredients": [
+        "Растворимый кофе",
+        "Сахар",
+        "Лёд",
+        "Холодная вода"
+      ],
+      "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-19.jpg",
+      "id": 7
+    },
+    {
+        "title": "34535",
+        "description": "проверим работает ли сахар",
+        "ingredients": [
+            "Молоко",
+            "Сахар"
+        ],
+        "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-19.jpg",
+        "id": 8
+    },
+]
