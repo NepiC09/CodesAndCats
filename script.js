@@ -25,7 +25,7 @@ class Coffee {
    
     if (result_length == 0) {
       document.getElementById("description").innerHTML = "Выберите ингредиенты для кофе";
-      return "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/50f12772294197.5be29482106f2.jpg";
+      return "https://i.pinimg.com/originals/5d/8b/b2/5d8bb255dfad4bee738866c1d999baa8.png";
     }
 
     for (let i = 0; i < this.my_coffee_list.length; i++){
@@ -37,7 +37,7 @@ class Coffee {
       }
     }
     document.getElementById("description").innerHTML = "Такого кофе нет.";
-      return "https://i.pinimg.com/originals/5d/8b/b2/5d8bb255dfad4bee738866c1d999baa8.png";
+      return "https://remontkit.ru/wp-content/uploads/2021/05/3370521.jpg";
   }
 }
 
