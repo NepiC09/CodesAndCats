@@ -1,7 +1,7 @@
 export let coffee_list = [
     {
       "title": "Espresso",
-      "description": "Придумайте описание",
+      "description": "Экспрессо",
       "ingredients": [
         "Эспрессо"
       ],
@@ -9,7 +9,7 @@ export let coffee_list = [
       "id": 1
     },
     {
-      "title": "Придумайте название 2",
+      "title": "Экспрессо",
       "description": "Придумайте описание 2",
       "ingredients": [
         "Эспрессо(2)"
