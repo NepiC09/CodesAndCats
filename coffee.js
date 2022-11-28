@@ -16,5 +16,15 @@ export let coffee_list = [
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doppio.jpg/2560px-Doppio.jpg",
       "id": 2
+    },
+    {
+      "title": "Какое-то кофе",
+      "description": "Я устал",
+      "ingredients": [
+        "Горячая вода",
+        "Холодная вода"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doppio.jpg/2560px-Doppio.jpg",
+      "id": 3
     }
   ]
