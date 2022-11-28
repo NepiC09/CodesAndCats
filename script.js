@@ -37,7 +37,7 @@ class Coffee {
       }
     }
     document.getElementById("description").innerHTML = "Такого кофе нет.";
-      return "https://avatars.mds.yandex.net/get-images-cbir/6936013/REcb233K8n8nWJ1PsKv1Wg2451/ocr";
+      return "https://img.freepik.com/free-vector/restaurante-menu-template-with-coffee-shop_23-2147766884.jpg";
   }
 }
 
