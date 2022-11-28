@@ -36,5 +36,17 @@ export let coffee_list = [
       ],
       "image": "https://topkin.ru/wp-content/uploads/2017/11/7.jpg",
       "id": 4
+    },
+    {
+      "title": "Американо",
+      "description": "Американо - кофейный напиток, для приготовления которого требуется сначала сварить порцию эспрессо, а потом добавить 90 мл горячей воды. Можно также добавить сахар по вкусу.",
+      "ingredients": [
+        "Эспрессо(1)",
+        "Горячая вода",
+        "Сахар"
+      ],
+      "image": "https://kofegid.info/wp-content/uploads/2019/04/raznovidnost-i-opisanie-18.jpg",
+      "id": 5
     }
+
   ]
