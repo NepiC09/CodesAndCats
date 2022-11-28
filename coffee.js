@@ -233,8 +233,7 @@ export let coffee_list = [
       "title": "Паук с водой",
       "description": "На основе воды готовиться кофе. Вы почти близки. Выберите остальные ингрилиенты :)",
       "ingredients": [
-        "Эспрессо(2)",
-        "Молоко"
+        "Холодная вода"
       ],
       "image": "https://cupofcoffee.biz/storage/2018/09/Flat-white.jpg",
       "id": 23
@@ -243,8 +242,7 @@ export let coffee_list = [
       "title": "Собака",
       "description": "Предпочитаю быть пьяным, чем обманутым (с.Лазарев). Мы, к сожалению, не продаем алкоголь, но очень ва понимаем. Выберите остальные ингридиенты, пожалуйста",
       "ingredients": [
-        "Эспрессо(2)",
-        "Молоко"
+        "Виски"
       ],
       "image": "https://sun1-27.userapi.com/impg/GzWoFxOfPN0JmKqHHvh-8uv3Yxnnt2ItZR3bUQ/K8SnWlUM-9U.jpg?size=512x512&quality=95&sign=0cf82a5d2965aefd5e93211950921c74&type=album",
       "id": 24
