@@ -24,7 +24,7 @@ class Coffee {
       let result_length = results.length;
    
     if (result_length == 0) {
-      document.getElementById("description").innerHTML = "Лапки сделали сайт. Не верьте лапкам";
+      document.getElementById("description").innerHTML = "Выберите ингредиенты для кофе";
       return "https://i.postimg.cc/Kzyfd0rC/VLAJ72-RUPQRW5-IIi-YD72-O79-YYft-IJlb2htxgb-AFUON6herq7d05h-Zhqb9-Wnhm-Rd-Vs-GOwh4j-PRTZMh3-BVnv1lyoux.jpg";
     }
 
@@ -36,8 +36,8 @@ class Coffee {
         }
       }
     }
-    document.getElementById("description").innerHTML = "Такого кофе нет";
-      return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BT_wxUp2Rt1dHhRxtdoeHxiBsTjjDxmW4A&usqp=CAU";
+    document.getElementById("description").innerHTML = "Такого кофе нет.";
+      return "https://avatars.mds.yandex.net/get-images-cbir/6936013/REcb233K8n8nWJ1PsKv1Wg2451/ocr";
   }
 }
 
