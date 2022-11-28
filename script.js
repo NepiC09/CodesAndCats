@@ -37,11 +37,11 @@ class Coffee {
       }
     }
     document.getElementById("description").innerHTML = "Такого кофе нет.";
-      return "https://img.freepik.com/free-vector/restaurante-menu-template-with-coffee-shop_23-2147766884.jpg";
+      return "https://avatars.mds.yandex.net/get-images-cbir/7969022/REcb233K8n8nWJ1PsKv1Wg3189/ocr";
   }
 }
 
 export let main_html = new Coffee();
 main_html.setClassCoffeeList(coffee_list);
-document.getElementById('image').src = "https://i.postimg.cc/Kzyfd0rC/VLAJ72-RUPQRW5-IIi-YD72-O79-YYft-IJlb2htxgb-AFUON6herq7d05h-Zhqb9-Wnhm-Rd-Vs-GOwh4j-PRTZMh3-BVnv1lyoux.jpg";
-document.getElementById("description").innerHTML = "Лапки сделали сайт. Не верьте лапкам";
+document.getElementById('image').src = "https://img.freepik.com/free-vector/restaurante-menu-template-with-coffee-shop_23-2147766884.jpg";
+document.getElementById("description").innerHTML = "Выберите ингредиенты для кофе!";
