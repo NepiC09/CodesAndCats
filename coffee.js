@@ -35,6 +35,6 @@ export let coffee_list = [
         "Холодная вода"
       ],
       "image": "https://topkin.ru/wp-content/uploads/2017/11/7.jpg",
-      "id": 3
+      "id": 4
     }
   ]
