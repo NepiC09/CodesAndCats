@@ -246,5 +246,14 @@ export let coffee_list = [
       ],
       "image": "https://sun1-27.userapi.com/impg/GzWoFxOfPN0JmKqHHvh-8uv3Yxnnt2ItZR3bUQ/K8SnWlUM-9U.jpg?size=512x512&quality=95&sign=0cf82a5d2965aefd5e93211950921c74&type=album",
       "id": 24
+    },
+     {
+      "title": "Кипяток",
+      "description": "Беда красит, как кипяток рака. Выберите еще ингредиентов к кофе, чтобы сделать ситуацию получше",
+      "ingredients": [
+        "Горячая вода"
+      ],
+      "image": "https://sun9-71.userapi.com/impg/6fmD3bYssDdWLFSPCdVDXzqBWqBzQJQd_VQVEQ/B8aGSFCnzDI.jpg?size=528x604&quality=96&sign=c2477909e9261e9523b7e08dff5d5457&type=album",
+      "id": 25
     }
 ]
