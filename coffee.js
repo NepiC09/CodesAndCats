@@ -218,6 +218,25 @@ export let coffee_list = [
         ],
         "image": "https://sun1-87.userapi.com/impg/DWhfy9Gq9eU6CGRZpj5hmkcSHqxF05ZfNHE0-g/MYoSeTnfQ2k.jpg?size=558x510&quality=96&sign=6e6b0405c50d12db4d8ca0376c4aea4d&type=album",
         "id": 21
-}
+},
+    {
+      "title": "Пчел",
+      "description": "Мёд — сладкий, густой, вязкий продукт, вырабатываемый пчёлами и родственными насекомыми. Мёд может входить в состав кофе. Пчел одобряет чистый мёд",
+      "ingredients": [
+        "Мёд"
+      ],
+      "image": "https://sun9-29.userapi.com/impg/aakoeIeqSoxkhxBBbWG2QuDPDzo_bYvZqXXUKQ/nfdDJQUjKNo.jpg?size=640x640&quality=96&sign=ce4bafadebaa9d4e92c4db5f64b07e8d&type=album",
+      "id": 22
+    },
     
+     {
+      "title": "Паук с водой",
+      "description": "На основе воды готовиться кофе. Вы почти близки. Выберите остальные ингрилиенты :)",
+      "ingredients": [
+        "Эспрессо(2)",
+        "Молоко"
+      ],
+      "image": "https://cupofcoffee.biz/storage/2018/09/Flat-white.jpg",
+      "id": 20
+    }
 ]
