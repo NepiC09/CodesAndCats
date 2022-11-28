@@ -24,7 +24,7 @@ export let coffee_list = [
         "Горячая вода",
         "Холодная вода"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doppio.jpg/2560px-Doppio.jpg",
+      "image": "https://www.meme-arsenal.com/memes/7d0aad95d41b21936d96e7fae169d06f.jpg",
       "id": 3
     }
   ]
